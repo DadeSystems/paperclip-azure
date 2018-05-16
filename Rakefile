@@ -16,7 +16,7 @@ Hoe.spec "paperclip-azure" do
   extra_deps << ['azure', '~> 0.7']
   extra_deps << ['azure-storage', '~> 0.12']
   extra_deps << ['hashie', '~> 3.5']
-  extra_deps << ['addressable', '~> 2.5']
+  extra_deps << ['addressable', '>= 2.5.0']
 
   extra_dev_deps << ['paperclip', '>= 4.3.6']
   extra_dev_deps << ['sqlite3', '~> 1.3.8']
